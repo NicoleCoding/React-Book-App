@@ -8,16 +8,48 @@ table {
 
 td {
   text-align: center;
-  background-color: beige;
+  background-color: white;
+  padding: 2px;
+  margin: 2px;
 }
 
-div {
+th {
+  background-color: white;
+  padding: 1px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+div #container {
+  text-align: center;
   padding: 2%;
-  background-color: lightblue;
+  background-image: linear-gradient(
+    to left,
+    #193f78,
+    #006299,
+    #0085a7,
+    #00a6a3,
+    #33c491
+  );
   border-radius: 10px;
 }
 
 #details {
-  background-color: bisque;
+  background-image: linear-gradient(
+    to left,
+    #00c2b9,
+    #31d1c0,
+    #4ce1c6,
+    #64f0cc,
+    #7cffd1
+  );
+  padding: 10px;
   border-radius: 10px;
+  margin: 10px;
+}
+
+#searchbar {
+  margin-bottom: 50px;
 }

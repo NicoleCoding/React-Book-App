@@ -28,8 +28,9 @@ export default function App() {
   }
   // Returns the children components SearchBar, DetailView and ResultTable
   return (
-    <div>
+    <div id="container">
       <h1>Books API</h1>
+      <img src="https://images.unsplash.com/photo-1589998059171-988d887df646?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="500rem"/>
       <p>Search for a book and click on any book to view its details</p>
       <SearchBar search={search} changeContent={changeContent} query={query} />
       <DetailView clickedBook={clickedBook} />

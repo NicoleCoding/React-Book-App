@@ -13,16 +13,16 @@ export default function DetailView(props) {
           <strong>Title:</strong> {props.clickedBook.title}
         </p>
         <p>
-          <strong>Author(s):</strong> {props.clickedBook.author_name.join(', ')}
+          <strong>Author(s):</strong> {props.clickedBook.author_name?.join(', ')}
         </p>
         <p>
-          <strong>Publisher:</strong> {props.clickedBook.publisher.join(', ')}
+          <strong>Publisher:</strong> {props.clickedBook.publisher?.join(', ')}
         </p>
         <p>
-          <strong>Language(s):</strong> {props.clickedBook.language.join(', ')}
+          <strong>Language(s):</strong> {props.clickedBook.language?.join(', ')}
         </p>
         <p>
-          <strong>Subject(s):</strong> {props.clickedBook.subject.join(', ')}
+          <strong>Subject(s):</strong> {props.clickedBook.subject?.join(', ')}
         </p>
       </div>
     );
